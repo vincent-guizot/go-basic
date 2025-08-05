@@ -1,1 +1,20 @@
-Belajar fullstack JS
+# Go Learning Roadmap (for Full Stack Devs)
+
+## Week 1 – Language Fundamentals
+| File                    | Concepts                         |
+|-------------------------|----------------------------------|
+| 01_basics.go            | Variables, types, functions      |
+| 02_structs_pointers.go  | Structs, methods, pointers       |
+| 03_slices_maps.go       | Slices, maps, control flow       |
+| 04_errors_interfaces.go | Error handling, interfaces       |
+| 05_goroutines_channels.go | Concurrency basics              |
+
+## Week 2 – API, Database, Docker
+| Folder              | Focus                     |
+|---------------------|---------------------------|
+| 01_gin_setup        | Minimal Gin API setup     |
+| 02_gorm_crud        | Models + GORM CRUD        |
+| 03_config_env       | Config loader & `.env`    |
+| 04_dockerized_api   | Docker + Compose setup    |
+| 05_bonus_kafka      | Kafka producer/consumer   |
+
