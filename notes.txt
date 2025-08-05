@@ -18,3 +18,44 @@
 | 04_dockerized_api   | Docker + Compose setup    |
 | 05_bonus_kafka      | Kafka producer/consumer   |
 
+
+go-learning-roadmap/
+│
+├── week1/
+│   ├── 01_basics.go              # variables, types, functions
+│   ├── 02_structs_pointers.go    # structs, methods, pointers
+│   ├── 03_slices_maps.go         # slices, maps, loops
+│   ├── 04_errors_interfaces.go   # error handling & interfaces
+│   └── 05_goroutines_channels.go # intro to concurrency
+│
+├── week2/
+│   ├── 01_gin_setup/
+│   │   ├── main.go
+│   │   └── routes.go
+│   │
+│   ├── 02_gorm_crud/
+│   │   ├── main.go
+│   │   ├── models/
+│   │   │   └── user.go
+│   │   └── controllers/
+│   │       └── user_controller.go
+│   │
+│   ├── 03_config_env/
+│   │   ├── main.go
+│   │   ├── config/
+│   │   │   └── config.go
+│   │   └── .env
+│   │
+│   ├── 04_dockerized_api/
+│   │   ├── main.go
+│   │   ├── Dockerfile
+│   │   ├── docker-compose.yml
+│   │   └── .env
+│   │
+│   └── 05_bonus_kafka/
+│       ├── producer.go
+│       ├── consumer.go
+│       └── docker-compose.yml
+│
+├── README.md
+└── go.mod
