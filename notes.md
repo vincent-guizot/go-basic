@@ -18,7 +18,6 @@
 | 04_dockerized_api   | Docker + Compose setup    |
 | 05_bonus_kafka      | Kafka producer/consumer   |
 
-
 go-learning-roadmap/
 │
 ├── week1/
